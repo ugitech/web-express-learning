@@ -31,8 +31,7 @@ const checkAuth = (req, res, next) => {
     return res.redirect('/login');
   }
   
-  const users = getUsers();
-  const user = users.find(user => user.id === Number(userId));
+  const user = getUsers().find(user => user.id === Number(userId));
   
   if (!user) {
     console.log(`User ${userId} not found in database`);
@@ -52,7 +51,7 @@ app.use(checkAuth);
 app.post('/login', (req, res) => {
   const { email, password } = req.body;
 
-  const user = users.find(user => user.email === email);
+  const user = getUsers().find(user => user.email === email);
 
   if (!user) {
     return res.status(401).send('User not found');
