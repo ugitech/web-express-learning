@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "email": "vi.angolenko@gmail.com",
+    "fullName": "Vitaliy Anholenko",
+    "password": "qwerty"
+  },
+  {
+    "id": 2,
+    "email": "v.babiichuk@ugi.edu.ua",
+    "fullName": "Volodymyr Babiichuk",
+    "password": "qwerty"
+  },
+  {
+    "id": 3,
+    "email": "ya.liubnytskiy@ugi.edu.ua",
+    "fullName": "Yaroslav Liubnytskiy",
+    "password": "password"
+  },
+  {
+    "id": 4,
+    "email": "valeriashernahovskaa@gmail.com",
+    "password": "qwerty"
+  },
+  {
+    "id": 5,
+    "email": "kulaha@gmail.com",
+    "fullName": "Kulaha Eduard",
+    "password": "qwerty1111"
+  },
+  {
+    "id": 6,
+    "email": "ya.trufanov@gmail.com",
+    "fullName": "Yaroslav Trufanov",
+    "password": "admin123"
+  },
+  {
+    "id": 7,
+    "email": "d.velychko@ugi.edu.ua",
+    "fullName": "Velichko Dima",
+    "password": "qwerty"
+  }
+]
